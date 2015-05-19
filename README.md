@@ -1,7 +1,7 @@
 # Bayes_Stars
 Bayesian inference of the posterior probability on stellar mass, age and metallicities [M, t, Z] using [MultiNest](https://ccpforge.cse.rl.ac.uk/gf/project/multinest/).
 
-This [IPython notebook](DataAnalysis_StarDM.ipynb) introduces the code and performs pre-calculations, data analysis and visualization of results.
+The IPython notebook [DataAnalysis_StarDM](DataAnalysis_StarDM.ipynb) introduces the code and performs pre-calculations, data analysis and visualization of results.
 
 Inside the [code](code/) folder you will find the python scripts to run Multinest using [OpenMPI](http://www.open-mpi.org/) for parallellization and/or [HTCondor](http://research.cs.wisc.edu/htcondor/) queue system to run in a cluster. [allst_main.py](code/allst_main.py) launches Multinest, but to have an overview take a look at the function F_calc_Likelihood4stmd in [allst_func.py](code/allst_func.py).
 
