@@ -1,0 +1,14 @@
+universe = parallel
+executable = openmpiscript
+
+initialdir = /home/jordi/allst/sample
+arguments =  /home/jordi/allst/sample/allst_main.py
+machine_count = 4
+
+log = test.log
+output = test.out
+error = test.err
+getenv = true
+should_transfer_files = yes
+when_to_transfer_output = on_exit
+queue 1

@@ -1,0 +1,24 @@
+*********************************
+	 TO DO BEFORE RUN
+*********************************
+- change directories paths in:
+condor.sub
+allst_main.py
+sun.don (only for runs in new machine: NOM_OUTDIR and NOM_CHEMIN)
+
+- change properties in sun.don
+
+- cp the desired SepCalc .
+
+********************************************
+    COMMANDS FOR OPENMPI RUN (no condor)
+********************************************
+- output to file:
+nohup mpirun -np 32 ./allst_main.py > all_output &
+
+- no output:
+nohup mpirun -np 32 ./allst_main.py > /dev/null &
+
+- output in screen (in extra virtual 'screen'):
+mpirun -np 32 ./allst_main.py
+
