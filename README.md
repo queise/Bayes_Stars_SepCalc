@@ -3,7 +3,7 @@ Bayesian inference of the posterior probability on stellar mass, age and metalli
 
 Please take a look at the following IPython notebook:
 
-## [DataAnalysis_StarDM](DataAnalysis_StarDM.ipynb) ,
+### [DataAnalysis_StarDM](DataAnalysis_StarDM.ipynb) ,
 
 it introduces the code and performs pre-calculations, data analysis and visualization of results.
 
