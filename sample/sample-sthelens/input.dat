@@ -1,0 +1,30 @@
+# name of the Star, used in the input *.freqs file:
+/local/tmp/jordi/allst/default_input_files/Dushera
+# range of freqs (mHz) for the slopes:
+1.6	1.9
+# observed logg and error (cgs):
+4.3	0.22
+# observed teff and error (K):
+6200	200
+# observed Z/Xs and error:
+0.019	0.006
+# observed large separation (betw freq and l ranges above, in muHz) and error:
+999.	999.
+# observed small separation for l=0 (2) and error:
+999.	999.
+# name of the Model, used in the input *.freqs and *.fin files, and in output files
+/local/tmp/jordi/allst/outputs/M1.116-Z153-A3079
+# Seismparams.dat output file:
+T
+# Chi2.dat output file:
+T
+# StelChars.dat output file:
+F
+# echelle diagram output file:
+F
+# r010(f) output file:
+F
+# Ls(f) output file:
+F
+# Chi2 (one) and likelihood factor output file:
+T

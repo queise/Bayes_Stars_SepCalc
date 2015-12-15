@@ -1,0 +1,14 @@
+2 'MODELNAME.osc'    @
+3 'MODELNAME.p4'    @
+-1 ''        @
+nn,icnmsh
+2401,,,
+9602,,,  @
+icase,icvzbn
+11,,9,60,0.0002,,,  @
+cg,cx,ca,cdgr,cddgr,alphsf
+,,,,,,,,,,,,,,  @
+nout,cn,irsu,unew   
+30,,,,,,,,,  @
+nmodel,kmodel,itsaml,ioldex
+,,,,,,,,,,,  @
